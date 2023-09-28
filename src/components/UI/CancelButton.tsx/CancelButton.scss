@@ -1,0 +1,43 @@
+.button-cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 30px;
+    border: none;
+    background: #e97973;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+  
+.lable {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+  
+.button-cancel:hover {
+    background: #e52e26;
+    transition: 0.2s;
+}
+  
+.button-cancel:hover .svg-icon {
+    animation: slope 0.2s linear infinite;
+}
+  
+@keyframes slope {
+    0% {
+    }
+  
+    50% {
+      transform: rotate(10deg);
+    }
+  
+    100% {
+    }
+}

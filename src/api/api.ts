@@ -1,9 +1,8 @@
-import React, {useState} from "react"
-
 const storage = [
     {
         id: 12353,
         project__name: "Arcarta",
+        project__description: "Hello world!",
         tasks: [
             {
                 number: 5,
@@ -73,8 +72,9 @@ const storage = [
     {
         id: 12354,
         project__name: "Coolpics",
+        project__description: "",
         tasks: [],
-    }   
+    },  
 ]
 
 export default storage;
